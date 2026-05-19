@@ -7,17 +7,33 @@
 
 ## 설치
 
-Claude Code에서 마켓플레이스를 추가합니다:
+### 1단계 — 마켓플레이스 추가 (1회만)
+
+Claude Code 안에서 다음 명령을 입력합니다:
 
 ```
 /plugin marketplace add mjkwon-aptner/duse-ai-plugin
 ```
 
-원하는 플러그인을 설치합니다:
+> ⚠️ 이 명령은 Claude Code 인터페이스 안에서 실행하는 것입니다.
+> 일반 터미널(zsh/bash)에 그대로 치면 `no such file` 에러가 나니, 반드시 Claude Code 세션 안에서 입력하세요.
+
+성공하면 "Marketplace 'duse-ai-plugin' added" 메시지가 뜹니다.
+
+### 2단계 — 원하는 플러그인 설치
 
 ```
-/plugin install retrospect@duse-ai-plugin
+/plugin install retrospect@duse-ai-plugin          # 데일리 회고
+/plugin install duse-connectors@duse-ai-plugin     # 사내 자원 통합 액세스 (Sheets 등)
 ```
+
+각 플러그인은 별도로 install 가능. 모두 설치해도 OK.
+
+### 3단계 — 플러그인별 추가 셋업
+
+플러그인에 따라 의존성 설치·인증 등 추가 셋업이 필요할 수 있습니다. 각 플러그인 카드의 "사용법" 섹션 참고:
+- [retrospect](#retrospect--데일리-회고) — 첫 실행 시 저장 경로 prompt
+- [duse-connectors](#duse-connectors--사내-자원-통합-액세스) — `pip install` + OAuth 1회 동의
 
 ---
 
