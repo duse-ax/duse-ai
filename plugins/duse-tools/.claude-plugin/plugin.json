@@ -1,0 +1,9 @@
+{
+  "name": "duse-tools",
+  "version": "0.1.0",
+  "description": "두꺼비세상 사내용 라이트 유틸리티 도구 모음. 브라우저 자동화·텍스트 변환·파일 처리 등 작지만 매일 쓰는 도구들. 첫 묶음: chromux (real Chrome 브라우저 자동화).",
+  "author": {
+    "name": "두꺼비세상 AX팀",
+    "url": "https://github.com/mjkwon-aptner"
+  }
+}

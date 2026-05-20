@@ -15,6 +15,11 @@
       "name": "duse-connectors",
       "description": "두꺼비세상 사내 자원(Sheets·Notion·Slack·Drive·콘솔·DB)에 자연어로 read+write 액세스하는 connectors 모음",
       "source": "./plugins/duse-connectors"
+    },
+    {
+      "name": "duse-tools",
+      "description": "두꺼비세상 사내용 라이트 유틸리티 모음. 첫 묶음으로 chromux(real Chrome 브라우저 자동화). 향후 텍스트 변환·파일 처리·매크로 등 추가 예정",
+      "source": "./plugins/duse-tools"
     }
   ]
 }
