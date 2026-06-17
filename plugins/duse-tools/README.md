@@ -10,7 +10,15 @@
 ### `chromux-work` — 브라우저 작업 오케스트레이션
 chromux 위에서 동작하는 워크플로우 — profile 선택, recon, 병렬 작업, 정리, 도메인 노트. 일반 브라우저 작업의 표준 절차.
 
-> 두 skill 모두 [team-attention/chromux](https://github.com/team-attention/chromux) 의 fork (MIT License). 상류 버전은 `UPSTREAM_VERSION` 참고.
+> 위 두 skill(chromux, chromux-work)은 [team-attention/chromux](https://github.com/team-attention/chromux) 의 fork (MIT License). 상류 버전은 `UPSTREAM_VERSION` 참고.
+
+### `seminar-archive` — Tiro 세미나 → Notion 인사이트 DB
+Tiro로 녹음한 세미나·외부행사의 '한 페이지 문서'(AI 요약)를 노션 `AX - 세미나 및 행사 인사이트` DB에 적재한다. 본문은 지어내지 않고 Tiro 요약을 **그대로(verbatim) 복사**하며, 내부 링크 대신 **공개 공유 링크**(`tiro.ooo/s/...`)를 원본으로 건다. 필요 MCP: Tiro(`mcp__tiro__*`) + Notion connector(`duse-connectors`). 공유 링크 생성만 Tiro REST API 쓰기 키 사용.
+
+```
+"오늘 세미나 노션에 정리해줘"
+"이 Tiro 녹음 세미나 인사이트 DB에 추가해줘"
+```
 
 ## 설치
 
