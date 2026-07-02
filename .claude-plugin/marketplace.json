@@ -18,7 +18,7 @@
     },
     {
       "name": "duse-tools",
-      "description": "두꺼비세상 사내용 라이트 유틸리티 모음. 첫 묶음으로 chromux(real Chrome 브라우저 자동화). 향후 텍스트 변환·파일 처리·매크로 등 추가 예정",
+      "description": "두꺼비세상 사내용 라이트 유틸리티 모음. chromux(real Chrome 브라우저 자동화), navercafe-crawl(네이버 카페 전수 크롤링→엑셀), seminar-archive 등. 향후 텍스트 변환·파일 처리·매크로 등 추가 예정",
       "source": "./plugins/duse-tools"
     }
   ]
